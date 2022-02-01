@@ -1,0 +1,175 @@
+<style>
+  
+  body{
+    margin-top: 30px;
+    margin-left: 200px;
+    background-image: url(data:image/jpeg;base64,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);
+    background-attachment: fixed;
+    background-size: cover;
+    margin-right: 50px;
+    color: white;
+   
+  }
+
+  @media { size: 200px;
+    
+  }
+  
+  img {
+   margin-right: 20px;
+   border-style: inset;
+   border-color: white;
+   border-radius: 5px;
+   height: 60%;
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+   display:block;
+   border-width:10px;
+  }
+  
+  p{
+    text-align: justify;
+  }
+  
+  header{
+    text-align: center;
+    font-size: 25px;
+    
+  }
+
+  a{
+    color: white;
+    opacity: 1;
+  }
+
+nav{
+ 
+ position:fixed;
+ width: 150px;
+ background-image: url(data:image/jpeg;base64,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);
+ padding: 12px;
+ z-index: 1;
+ left: 0;
+height: 100%;
+ border-radius: 15px;
+ border-style:inset;
+ border-color:white;
+  }
+
+#navbar{
+font-size: 13px;
+padding: 10px;
+line-height: 70px;
+color:white;
+text-align: left;
+opacity: 1;
+}
+
+.margin{
+  margin-top: 30px;
+}
+</style>
+
+
+<main id="main-doc">
+  
+  <nav id="navbar">
+    <header><u>Content</u></header></header>
+ <ul>
+  <li>  <a href="#Product_Review" class="nav-link">Product Review</a> </li>
+   <li>    <a href="#Product_Description" class="nav-link">Product Description</a>  </li>
+   <li>    <a href="#Product_Features" class="nav-link">Product Features</a> </li>
+  <li>     <a href="#Product_Advantages" class="nav-link">Product Advantages</a>  </li>
+    <li>   <a href="#Latest_versions" class="nav-link">Latest Versions</a>  </li>
+    </ul>
+  </nav>
+ <body> 
+  <section class="main-section" id="Product_Review" >
+   
+    <header class="margin"> Product Review </header><br>
+     <img src="https://cdn.dribbble.com/users/172616/screenshots/3725834/dribbble.png"></img>
+     <h2>What is Visual Studio Code?</h2>
+     <p>Visual Studio Code is a source-code editor made by <code>Microsoft</code> for Windows, Linux and macOS.Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git.</p>
+    
+    <ul>
+      <li> Programming languages used include Java, JavaScript, Go, Node.js, Python and C++. </li>
+    </ul>
+    <a href="nav-link"></a>
+  </section>
+
+<br><hr><br>
+  
+  <section class="main-section" id="Product_Description">
+    <header>Product Description</header>
+    <p><b>Visual Studio Code</b> is a lightweight but powerful <code>source code </code>editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.</p>
+    
+    <ul>
+      <li> <b>JavaScript </b>is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. </li><br>
+      <li><b>TypeScript</b> may be used to develop JavaScript applications for both client-side and server-side execution (as with Node. js or Deno). </li>
+      </ul>
+    <a href="nav-link"></a>
+  </section>
+  
+  <br><hr><br>
+
+  <section class="main-section" id="Product_Features">
+    <header>Product Features</header>
+    <p>Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded <code>Git.</code>  Here are some of the features: </p>
+    
+    <ul>
+      <li> Emmet Abbreviations</li>
+      <li>The Integrated CLI (Command Line Interface)</li>
+      <li>Simple and User-friendly themes</li>
+      <li>Extensions</li>
+      <li>Multi-cursor Shortcuts</li>
+      <li>Execute and Debug scripts</li>
+    </ul>
+    <a href="nav-link"></a>
+  </section>
+  
+  <br><hr><br>
+
+  <section class="main-section" id="Product_Advantages">
+    <header>Product Advantages</header>
+    <p>These are the advantages of using <code>Visual Studio Code</code></p>
+   
+    <ul>
+      <li> Cross-platform support</li>
+      <li>Lightweight</li>
+      <li>Robust Architecture</li>
+      <li>Intelli-sense</li>
+      <li>Built-in Github</li>
+      <li>Freeware</li>
+    </ul>
+   <a href="nav-link"></a>
+  </section>
+  
+  <br><hr><br>
+
+  <section class="main-section" id="Latest_versions">
+    <header>Latest Versions</header>
+    <p>Here are some of the latest release from VS Code.</p>
+    
+    <ul>
+      <li><a href="https://code.visualstudio.com/updates/v1_63">November 2021 (version 1.63)</a></li>
+      <li><a href="https://code.visualstudio.com/Download">Download Visual Studio Code</a>  </li>
+      <li><a href="https://code.visualstudio.com/">Official website</a></li>
+    </ul>
+   <a href="nav-link"></a>
+  </section>
+  <br><hr>
+
+  <footer>
+    <p>Other links:</p>
+    <ul>
+      <li><a href="https://medium.com/@bretcameron/7-essential-features-of-visual-studio-code-for-web-developers-be77e235bf62">7 Essential Features of VS Code</a></li>
+      <li><a href="https://www.educba.com/what-is-visual-studio-code/">Advantages of VS Code</a></li>
+      <li><a href="https://www.quora.com/Is-TypeScript-front-end-or-back-end">What is a TypeScript</a></li>
+      <li><a href="https://www.hackreactor.com/blog/what-is-javascript-used-for">What is JavaScript</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/Visual_Studio_Code">What is Visual Studio Code</a></li>
+   
+      </ul>
+    </footer>
+  </body> 
+</main>
